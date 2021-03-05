@@ -1,0 +1,30 @@
+base_url = "https://The-Order-of-The-Boar.github.io"
+
+theme = "Zulma"
+compile_sass = false
+
+build_search_index = false
+
+generate_feed = true
+feed_filename = "rss.xml"
+
+taxonomies = [
+    {name = "categories"},
+    {name = "tags", paginate_by = 5, rss = true},
+    {name = "authors", rss = true},
+]
+
+[markdown]
+highlight_code = true
+
+
+[extra]
+zulma_title = "The Order Of The Boar Blog"
+zulma_theme = "slate"
+zulma_allow_theme_selection = true
+zulma_menu = [
+    {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+    {url = "$BASE_URL/authors", name = "Authors"}
+]
+zulma_brand = {image = "$BASE_URL/boar.png", text = "Home"}
