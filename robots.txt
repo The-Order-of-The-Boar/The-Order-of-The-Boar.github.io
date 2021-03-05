@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://The-Order-of-The-Boar.github.io/sitemap.xml
